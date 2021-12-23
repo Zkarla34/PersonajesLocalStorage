@@ -1,0 +1,114 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+/*navegador**/
+header
+{
+    background-color: black;
+    border: black 2px solid ;
+}
+.nav
+{
+    height: 60px;
+    width: 40%;
+    margin-left: 30%;
+    list-style: none;
+    margin-top: 5px;
+}
+.nav-item
+{
+    float: left;
+    margin-top: 0px;
+    margin:10px;
+    font-family: 'Akronim', cursiva;
+    border-radius: 30px;
+
+}
+.nav-item:hover
+{
+    box-shadow: 1px 1px 1px 2px blanchedalmond;
+    color: white;
+}
+.nav-link
+{
+    color:white;
+    text-decoration: none;
+}
+/*Imagen de fondo*/
+.fondo
+{
+    background: url(/imagenes/12909420_850449145101548_4374916512555991961_o.jpg) no-repeat center center fixed; 
+    background-size: cover;
+    backdrop-filter: blur(0px);
+}
+/*Container principal*/
+.todo
+{
+    width: 95%;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content:left;
+}
+.todo .formulario
+{
+    border: solid 2px #001D3D;
+    width: 400px;
+    margin: 30px;
+    border-radius: 20px;
+    padding: 10px;
+    margin-left: 0;
+    background-color: white;
+}
+/*Titulo formulario*/
+h4
+{
+    text-align: center;
+    padding: 10px;
+    margin-left: 30px;
+}
+/*Tabla*/
+.table tbody
+{
+   background-color: white;
+}
+.table{
+    text-align: center;
+}
+.form-control, 
+.form-select
+{
+    border: brown solid 1px;
+    caret-color:violet;
+}
+.col-auto
+{
+    margin-left: 15%;
+}
+.col-auto > .btn-primary
+{
+    margin: 30px;
+
+}
+/*Footer*/
+footer
+{
+    background-color: black;
+    margin-top: 92px;
+    border: black solid 2px;
+}
+footer p
+{
+    color: white;
+    font-family: 'Akronim', cursiva;    
+    text-align: center;
+    font-size:larger;
+    margin-top: 40px;
+}
+footer span
+{
+    color:gold;
+
+}

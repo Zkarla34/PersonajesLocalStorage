@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--FUENTES-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Akronim&display=swap" rel="stylesheet">
+  <!--BOOTSTRAP-->
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/style.css">
+  <title>Personajes</title>
+</head>
+
+<body class="fondo">
+  <header>
+    <nav>
+      <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="#">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Dragon Ball</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Dragon Ball Z</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Dragon Ball GT</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <section class="todo">
+    <section class="formulario">
+      <form class="row gy-2 gx-3 align-items-center" name="Personaje">
+        <h4>Información Personajes</h4>
+        <div class="col-auto">
+          <label for="nombrep">Nombre Personaje:</label>
+          <input type="text" class="form-control" id="nombrep" name="nombrep" autofocus>
+        </div>
+        <div class="col-auto">
+          <label for="saga">Saga:</label>
+          <input type="text" class="form-control" id="saga" name="saga">
+        </div>
+        <div class="col-auto">
+          <label for="manga">Manga:</label>
+          <select class="form-select form-control" id="manga" name="manga">
+            <option value="Todos">Todos</option>
+            <option value="Dragon Ball">Dragon Ball</option>
+            <option value="Dragon Ball Z">Dragon Ball Z</option>
+            <option value="Dragon Ball GT">Dragon Ball GT</option>
+          </select>
+        </div>
+        <div class="col-auto">
+          <button type="submit" class="btn btn-primary" onclick="objetoPersonaje.create()">Guardar</button>
+        </div>
+      </form>
+    </section>
+    <section class="tabla">
+      <div class="container">
+        <form action="" name="formTable">
+        <table class="table" >
+          <thead class="table table-dark table-hover">
+            <tr>
+              <th>Consecutivo</th>
+              <th>Nombre</th>
+              <th>Saga</th>
+              <th>Manga</th>
+              <th>Acciones</th>
+            </tr>
+          </thead>
+          <tbody id="tableBody">
+            <tr>
+            </tr>
+          </tbody>
+        </table>
+      </form>
+      </div>
+    </section>
+  </section>
+
+  <footer>
+    <p>Creado por <span> Zulma Solano & Damyz Solano. </span></p>
+  </footer>
+
+  <script src="/js/main.js"></script>
+</body>
+
+</html>
